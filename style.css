@@ -1,0 +1,358 @@
+body {
+    background: #F6E7E7;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: #310909;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background;
+}
+
+
+/*--------------SIDEBAR---------------------*/
+
+.botonmenu {
+    height: 130px;
+    width: 350;
+    position: fixed;
+    float: left;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.botonmenu:active {
+    transform: translateY(3px);
+}
+
+#sidebar {
+    width: 350px;
+    height: 950px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: fixed;
+    left: 0px;
+    float: left;
+    background-image: url(Fotos/Sidebar.jpg);
+}
+
+#proyectos {
+
+    background-image: url(Fotos/PROYECTOSTXT.png);
+    top: 500;
+
+}
+
+#sobremi {
+
+    background-image: url(Fotos/SOBREMITXT.png);
+    top: 650;
+
+}
+
+#contacto {
+
+    background-image: url(Fotos/CONTACTOTXT.png);
+    top: 800;
+
+}
+
+/*-----------------CONTENT-------------------*/
+
+#content {
+    width: 1550px;
+    height: 950px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: fixed;
+    left: 350px;
+    float: left;
+    background: #ECECEC;
+}
+
+#flecha {
+    background-image: url(Fotos/flecha.png);
+    width: 200px;
+    height: 100px;
+    left: 350;
+}
+
+#proyectos_titulo {
+
+    background-image: url(Fotos/TITULO_PROYECTOS.png);
+    height: 237px;
+    width: 800px;
+    position: fixed;
+    float: left;
+    left: 725;
+    top: 0;
+
+}
+
+#ilustracion_titulo {
+
+    background-image: url(Fotos/tituloilustracion.png);
+    height: 237px;
+    width: 800px;
+    position: fixed;
+    float: left;
+    left: 725;
+    top: 0;
+
+}
+
+#diseño_titulo {
+
+    background-image: url(Fotos/titulodise%C3%B1o.png);
+    height: 237px;
+    width: 800px;
+    position: fixed;
+    float: left;
+    left: 725;
+    top: 0;
+
+}
+
+.botonproyecto {
+    height: 237px;
+    transition: transform 1s;
+    width: 1200px;
+    position: fixed;
+    float: left;
+    left: 550;
+}
+
+.botonproyecto:hover {
+    transform: scale(1.15);
+
+}
+
+#animacion_boton {
+
+    background-image: url(Fotos/botton_animacion.png);
+    top: 238;
+
+
+}
+
+#ilustracion_boton {
+
+    background-image: url(Fotos/botton%20ilustracion.png);
+    top: 476
+}
+
+#diseño_boton {
+
+    background-image: url(Fotos/botton%20dise%C3%B1o.png);
+    top: 713;
+
+}
+
+.botonanimacion {
+    height: 711px;
+    width: 600px;
+    position: fixed;
+    transition: transform 1s;
+    top: 238;
+}
+
+.botonanimacion:hover {
+    transform: scale(1.15);
+
+}
+
+#animacion_2d {
+    background-image: url(Fotos/boton2d.png);
+    left: 550;
+}
+
+#animacion_3d {
+    background-image: url(Fotos/boton3d.png);
+    left: 1150;
+}
+
+video {
+    left: 550;
+    position: fixed;
+    width: 1080px;
+    height: 720px;
+    top: 90;
+}
+
+#animacio_titulo {
+    background-image: url(Fotos/aniamciontitulo.png);
+    height: 237px;
+    width: 800px;
+    position: fixed;
+    float: left;
+    left: 725;
+    top: 0;
+}
+
+#flechadiseñ1 {
+    background-image: url(Fotos/flecha2.png);
+    width: 200px;
+    height: 100px;
+    left: 1720;
+    top: 475;
+}
+
+#flechadiseñ2 {
+    background-image: url(Fotos/flecha.png);
+    width: 200px;
+    height: 100px;
+    left: 350;
+    top: 475;
+}
+
+
+/*----------LOGOS-------------*/
+
+#enfase {
+    background-image: url(Fotos/Logos/enfase.png);
+    width: 300px;
+    height: 300px;
+    left: 600;
+    top: 250;
+    position: fixed;
+}
+
+#exploxion {
+    background-image: url(Fotos/Logos/Exploxion.png);
+    width: 300px;
+    height: 300px;
+    left: 600;
+    top: 525;
+    position: fixed;
+}
+
+#tarjeta {
+    background-image: url(Fotos/Logos/tarjeta%20enfase.png);
+    width: 450px;
+    height: 300px;
+    left: 1050;
+    top: 400;
+    position: fixed;
+}
+
+
+
+#dmoon {
+    background-image: url(Fotos/Logos/dmoonazul.png);
+    width: 300px;
+    height: 300px;
+    left: 600;
+    top: 250;
+    position: fixed;
+}
+
+#calavera {
+    background-image: url(Fotos/Logos/calavare.png);
+    width: 300px;
+    height: 300px;
+    left: 1400;
+    top: 250;
+    position: fixed;
+}
+
+#felinos {
+    background-image: url(Fotos/Logos/felinos.png);
+    width: 300px;
+    height: 300px;
+    left: 600;
+    top: 600;
+    position: fixed;
+}
+
+#gg {
+    background-image: url(Fotos/Logos/gg.png);
+    width: 300px;
+    height: 300px;
+    left: 1400;
+    top: 600;
+    position: fixed;
+}
+
+
+.imagenes {
+    transition: transform 1s;
+
+}
+
+.imagenes:hover {
+    transform: scale(1.3);
+
+}
+
+#descripcio {
+    background-image: url(Fotos/descripcion.jpg);
+    height: 950px;
+    width: 1550px;
+    position: fixed;
+    float: left;
+    left: 350;
+    top: 0;
+}
+
+#contactobg {
+    background-image: url(Fotos/contacto.jpg);
+    height: 950px;
+    width: 1550px;
+    position: fixed;
+    float: left;
+    left: 350;
+    top: 0;
+}
+
+#correoboton {
+    background-image: url(Fotos/correotxt.png);
+    height: 56px;
+    width: 437;
+    position: fixed;
+    float: left;
+    cursor: pointer;
+    transition: all .1s linear;
+    top: 450;
+    left: 910;
+}
+
+
+.correoboton1:active {
+    transform: translateY(3px);
+}
+
+
+#paisatge {
+    background-image: url(Fotos/paisatge.png);
+    width: 1043px;
+    height: 536px;
+    left: 600;
+    top: 250;
+    position: fixed;
+}
+
+#patum {
+    background-image: url(Fotos/patum.png);
+    width: 420px;
+    height: 512px;
+    left: 600;
+    top: 250;
+    position: fixed;
+}
+
+#noidea {
+    background-image: url(Fotos/noidea.jpg);
+    width: 420px;
+    height: 512px;
+    left: 1300;
+    top: 250;
+    position: fixed;
+}
